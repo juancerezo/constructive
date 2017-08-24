@@ -1,0 +1,23 @@
+{
+  "name": "constructive",
+  "version": "0.0.1-alpha.7",
+  "description": "The universal-structure framework.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juancerezo/constructive.git"
+  },
+  "author": "Juan Cerezo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juancerezo/constructive/issues"
+  },
+  "homepage": "https://github.com/juancerezo/constructive#readme",
+  "dependencies": {
+    "bluebird": "3.5.0",
+    "lodash": "4.17.4"
+  }
+}
