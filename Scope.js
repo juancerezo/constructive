@@ -22,7 +22,6 @@ function Scope () {
                 throw new Error('Invalid type, not string at _module[0]');
             }
         } else {
-            console.log();
             throw new Error('Invalid type, not array or lenght !== 2');
         }
         
