@@ -2,7 +2,6 @@ const Module = require ('./Module');
 
 function Service() {
     Module.call(this);
-    this.update 	  = update;
 
 }
 
