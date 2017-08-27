@@ -1,5 +1,4 @@
 const Promise = require('bluebird');
-const Application = require('./Application');
 
 function Module () {
 	this.__$$name	  = new String();
@@ -55,4 +54,3 @@ Module.prototype.graft = function (graft, unsave) {
 };
 
 module.exports = Module;
-

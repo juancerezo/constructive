@@ -27,7 +27,6 @@ Application.prototype.init = function () {
     return new Promise(_ApplicationInit);
 
     function _ApplicationInit (resolve, reject) {
-        _ApplicationInit.constructor = Application;
 
         let i = self.__$$import.length;
         let services = {};

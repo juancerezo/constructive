@@ -31,4 +31,3 @@ function Scope () {
 
 Scope.prototype.constructor = Scope;
 module.exports = Scope;
-
