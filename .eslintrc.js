@@ -4,10 +4,13 @@ module.exports = {
         "node": true
     },
     "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module"
+    },
     "rules": {
         "indent": [
             "error",
-            "tabs"
+            4
         ],
         "linebreak-style": [
             "error",
